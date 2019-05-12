@@ -6,11 +6,7 @@
   "scripts": {
     "test": "jest ./"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm test"
-    }
-  },
+  "precommit": "npm test",
   "keywords": [],
   "author": "Igor Oliinyk",
   "license": "ISC",
